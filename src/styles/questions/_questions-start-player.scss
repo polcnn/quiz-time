@@ -1,0 +1,15 @@
+.questions-start-player {
+    margin: auto;
+    max-width: 300px;
+    width: 100%;
+
+    .ant-input {
+        text-align: center;
+    }
+
+    .-actions {
+        .ant-btn {
+            margin: auto;
+        }
+    }
+}

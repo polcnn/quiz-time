@@ -1,0 +1,24 @@
+.questions-playing {
+    margin: auto;
+    max-width: 750px;
+    width: 100%;
+
+    .ant-radio-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        line-height: 1.5;
+
+        * {
+            color: $color-secondary;
+            font-size: $font-size-small;
+            font-weight: 400;
+        }
+    }
+
+    .-actions {
+        .ant-btn {
+            margin-left: auto;
+        }
+    }
+}

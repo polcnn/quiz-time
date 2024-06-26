@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 
 import { SetMetaTitle } from "@/utils/MetaUtils";
 
-import QuestionStartPlayer from "@/components/Question/QuestionStartPlayer";
+import QuestionLeaderBoard from "@/components/Question/QuestionLeaderBoard";
 
 export const metadata: Metadata = {
-  title: SetMetaTitle("Enter Your Name"),
+  title: SetMetaTitle("Leader Board"),
 };
 
 const page = () => {
-  return <QuestionStartPlayer />;
+  return <QuestionLeaderBoard />;
 };
 
 export default page;

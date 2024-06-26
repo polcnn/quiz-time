@@ -1,0 +1,21 @@
+.ant-notification {
+    .ant-notification-notice-with-icon {
+        svg {
+            width: 22px;
+            height: 22px;
+        }
+    }
+
+    .ant-notification-notice-message {
+        font-weight: 500;
+    }
+
+    .ant-notification-notice-description {
+        font-weight: 300;
+        color: $color-secondary !important;
+
+        * {
+            font-size: $font-size-small !important;
+        }
+    }
+}
